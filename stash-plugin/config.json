@@ -1,0 +1,14 @@
+{
+  "api": {
+    "endpoint": "http://localhost:5000/",
+    "timeout": 5
+  },
+  "image": {
+    "max_size": 1048576,
+    "allowed_formats": ["jpg", "jpeg", "png"]
+  },
+  "logging": {
+    "level": "INFO",
+    "log_file": "stash_plugin.log"
+  }
+}
